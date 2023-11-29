@@ -83,6 +83,14 @@ trait PackageTrait
         return $this;
     }
 
+    /**
+     * Получить номер упаковки
+     */
+    public function getNumber(): ?string
+    {
+        return $this->number;
+    }
+
      /**
      * Устанавливает ID упаковки
      */
